@@ -2,3 +2,5 @@
 *.xml
 __pycache__/
 main.py
+dist/
+steam_wrapper_api.egg-info/
