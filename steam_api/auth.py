@@ -11,7 +11,7 @@ def create_auth_json(api_key):
         json.dump(obj, file_path, indent=4)
 
 def load_auth_json():
-    with open('./API_steam.json' 'r') as file:
+    with open('./API_steam.json', 'r') as file:
         try:
             api_key = json.load(file)['api_key']
             return api_key
